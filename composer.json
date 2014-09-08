@@ -1,0 +1,17 @@
+{
+    "name": "meltedspork/zip-timezone-php",
+    "type": "library",
+    "description": "A PHP API puller for flat file CSV provided by http://www.unitedstateszipcodes.org/zip-code-database/",
+    "keywords": ["zipcode", "timezone", "geolocation", "area code"],
+    "homepage": "http://github.com/meltedspork/zip-timezone-php",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "slim/slim": "2.*"
+    },
+    "autoload": {
+        "psr-0" : {
+            "classmap" : ["zip/"]
+        }
+    }
+}
